@@ -1,0 +1,24 @@
+{
+  "name": "sheet-me",
+  "version": "1.0.0",
+  "description": "A CLI tool to generate timesheets from git logs using OpenAI.",
+  "main": "index.js",
+  "bin": {
+    "git-timesheet": "./index.mjs"
+  },
+  "type": "module",
+  "dependencies": {
+    "commander": "^10.0.0",
+    "googleapis": "^144.0.0",
+    "openai": "^4.0.0",
+    "xlsx": "^0.18.5"
+  },
+  "keywords": [
+    "git",
+    "timesheet",
+    "cli",
+    "openai"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
